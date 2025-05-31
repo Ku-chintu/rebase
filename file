@@ -1,7 +1,7 @@
 data "aws_subnet" "selected" {
   filter {
     name   = "tag:Name"
-    values = ["subnet-25"] # insert value here
+    values = ["subnet-255"] # insert value here
   }
 }
 data "aws_security_group" "selected" {
